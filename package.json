@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "practice": "vite 00_practice_project",
     "todo": "vite 01_todo_list",
     "user-auth": "vite 02_user_authentication",
     "build:todo": "tsc && vite build 01_todo_list",
