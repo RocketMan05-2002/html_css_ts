@@ -29,14 +29,14 @@ function renderTodos(): void {
     }
 
     const completeBtn = document.createElement("button");
-    completeBtn.innerText = "✅";
+    completeBtn.innerText = "Mark Done";
     completeBtn.onclick = () => {
       manager.toggleTodo(todo.id);
       renderTodos();
     };
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.innerText = "❎";
+    deleteBtn.innerText = "Close";
     deleteBtn.onclick = () => {
       manager.deleteTodo(todo.id);
       renderTodos();
